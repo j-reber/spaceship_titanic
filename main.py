@@ -29,6 +29,7 @@ def get_svm(X, y):
     return clf
 
 
+
 def get_nn(X, y):
     model = tf.keras.models.Sequential()
     model.add(tf.keras.Input(shape=(X.shape[1],)))
